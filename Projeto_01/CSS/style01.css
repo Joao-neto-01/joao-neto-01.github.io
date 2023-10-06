@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 45px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 2%;
+}
+
+header nav ul li{
+    padding-left: 2%;
+
+}
+
+header a {
+    text-decoration:none;
+    color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder
+}
+
+section{
+    height: 350px;
+    border: 1px solid gray ;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_centralizado{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_centralizado img{
+    height: 200px;
+    border-radius: 10%;
+}
+
+.container_centralizado h2{
+    margin-top: 3%;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*perguntar pq essa parte que tem o conteiner centralizado mexe nas sessões abixao que o
+nome da classe é só container*/
+.container_centralizado p, ul{
+    margin-top: 2%;
+    font-size: 1.3em;
+}
+
+.container{
+    margin-top: 1%;
+}
+
+.container img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container p, ul {
+    margin-top: 2%;
+    font-size: 1.3em;
+    list-style: none;
+}
+
+footer{
+    line-height: 40px;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#introducao{
+    background-color: antiquewhite;
+}
+
+#Sobre{
+    background-color: bisque;
+}
+#Contato{
+    background-color: beige;
+}
